@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import './HelloWorld.css';
 
 function App() {
   return (
@@ -23,7 +24,11 @@ function App() {
 }
 
 function HelloWorld(){
-  return (<h1>Hello World!</h1>)
+  return (
+    <div className="HelloWorld">
+      <h1>Hello World!</h1>
+    </div>
+  );
 }
 
-export default App; //alterar para abrir quando 'npm start'
+export default HelloWorld; //alterar para abrir quando 'npm start'
