@@ -1,3 +1,8 @@
+/* GRUPO:
+Alexandre de Carvalho Paiva
+Dennis França de Oliveira Duarte
+José Roberto da Silva Junior*/
+
 import React from 'react'
 /*import Alternativas1 from './Alternativas1'
 import Alternativas2 from './Alternativas2'
