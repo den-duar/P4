@@ -4,9 +4,9 @@ import Respostas from './Respostas'
 const Finalizar = () => {
 
     function finalizar(){
-        if (Respostas.length < 3){
-            alert("Você precisa responder todas as perguntas antes de finalizar!")
-        }
+      
+      Respostas.length < 3? alert(`Você acertou ${acertos} /3`):alert("Você precisa respondert odas as perguntas antes de finalizar!")
+   
     }
 
   return (

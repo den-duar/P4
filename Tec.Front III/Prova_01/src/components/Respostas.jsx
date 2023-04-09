@@ -7,6 +7,7 @@ const Respostas = () => {
         setRespostas(resposta)
     }
 
+
   return (
     <div>
         <h2>Questões respondidas:</h2>
