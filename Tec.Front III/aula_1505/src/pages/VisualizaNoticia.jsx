@@ -1,0 +1,31 @@
+import { useEffect, useState } from 'react'
+import { useParams } from 'react-router-dom'
+
+const VisualizaNoticia = () => {
+
+    const {id} = useParams()
+
+    const url = `http://localhost:3000/noticias/${id}` 
+
+    const [visualizaNoticia, setVisualizaNoticia] = useState({})
+
+    useEffect(() => {
+        async function fetchData(){
+          const res = await fetch(url)
+          const data = await res.json()
+    
+          setVisualizaNoticia(data)
+        }
+        fetchData()
+      }, [])
+
+  return (
+    <div>
+        <h1>{visualizaNoticia.titulo}</h1>
+        <h2>{visualizaNoticia.subtitulo}</h2>
+        <p>{visualizaNoticia.noticia}</p>
+    </div>
+  )
+}
+
+export default VisualizaNoticia

@@ -1,0 +1,26 @@
+
+{
+    "noticias": [
+        {    
+        "id": 1,
+        "titulo": "Coordenação realiza Semana de Enfermagem na terça (16) e na quinta (18)", 
+        "subtitulo": "O evento, que tem participação gratuita e aberta ao grande público será realizado a partir das 19h, no Auditório Executivo da instituição", 
+        "noticia": "A coordenação de Enfermagem do UNIESP irá realizar nesta terça-feira (16) mais uma edição da Semana da Enfermagem. O evento, que tem participação gratuita e aberta ao grande público será realizado a partir das 19h, no Auditório Executivo da instituição."
+        },
+        { 
+        "id": 2,
+        "titulo": "Pocket Design começa nesta sexta-feira", 
+        "subtitulo": "A participação, voltada para estudantes da área, é gratuita e não precisa de inscrição" , 
+        "noticia": "Nesta sexta (12) começa mais uma edição do Pocket Design, evento que neste ano tem uma novidade: além de atividades voltadas ao curso de Design de Interiores, a graduação em Design Gráfico, nova na instituição, também será contemplada. A participação, voltada para estudantes da área, é gratuita e não precisa de inscrição. A programação (veja abaixo) vai até a terça-feira (16)."
+        },
+        {
+        "id": 3,
+        "titulo": "MBA em Marketing e Inovação realiza aula magna nesta sexta", 
+        "subtitulo": "O encontro terá como tema “O marketing e a inovação que o mercado realmente precisa" , 
+        "noticia": "O MBA em Marketing e Inovação, pós-graduação do UNIESP, irá realizar sua aula magna nesta sexta-feira (19), a partir das 19h na Sala de Leitura da Biblioteca, 1º andar do Bloco Central. O encontro terá como tema “O marketing e a inovação que o mercado realmente precisa” e terá como ministrantes os professores André Felisberto, Gareth Butcher, Luciana Rabay e Suelen Pinto. A participação é gratuita, não sendo necessária a inscrição."
+    }
+    
+]
+}
+
+
