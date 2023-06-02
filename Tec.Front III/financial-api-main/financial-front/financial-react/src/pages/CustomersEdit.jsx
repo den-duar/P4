@@ -57,7 +57,7 @@ const CustomersEdit = () => {
           body: cliente
         });
         console.log(response);
-
+        alert("Editado com sucesso!")
         window.location.href = 'http://localhost:5173/customers'
       } catch (error) {
         console.error(error);

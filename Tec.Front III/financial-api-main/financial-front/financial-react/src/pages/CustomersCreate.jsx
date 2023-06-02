@@ -58,7 +58,7 @@ const CustomersCreate = () => {
         body: cliente
       });
       console.log(response);
-
+      alert("Criado com sucesso!")
       window.location.href = 'http://localhost:5173/customers'
     } catch (error) {
       console.error(error);

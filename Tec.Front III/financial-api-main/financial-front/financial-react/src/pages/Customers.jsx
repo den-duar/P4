@@ -23,6 +23,7 @@ const Customers = () => {
                 method: "DELETE"
             });
             console.log(response);
+            alert('Deletado com sucesso!')
             window.location.reload();
         } catch (error) {
             console.error(error);
